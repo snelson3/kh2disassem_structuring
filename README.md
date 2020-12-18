@@ -10,9 +10,7 @@ Running this file will split out the single source file into a directory tree, t
 
 Will create the following inside a "source" root folder
 
-YS
-  SUMMON_TABLE
-    read.cpp
+YS > SUMMON_TABLE > read.cpp
 
 Where YS and SUMMON_TABLE are folders and read.cpp is a file containing only the functions with that name
 
@@ -26,4 +24,4 @@ Eventually it will be able to go backwards.
 
 ### gen_source_tree.py 
 
-`source_tree.txt` contains the most well known list of what the development KH2 source code tree looks like. `gen_source_tree.py` creates a dummy file tree according to this file. I made this because I find it easier on the eyes to read the file tree in VSCode, as opposed to a text list of file paths.
+`source_tree.txt` contains the most well known list of what the development KH2 source code tree looked like. `gen_source_tree.py` creates a dummy file tree according to this file. I made this because I find it easier on the eyes to read an IDE file tree, as opposed to a text list of file paths.
